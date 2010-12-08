@@ -1,8 +1,7 @@
 <?php
-print "Hello";
+
 $message = $_POST['message'];
 $created = $_POST['created_at'];
-print_r($_POST);
 
 // Downcase it
 $message = strtolower($message);
